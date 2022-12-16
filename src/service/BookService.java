@@ -6,6 +6,9 @@ import java.util.List;
 
 public interface BookService {
 
+    static void printUser(Book book) {
+    }
+
     List <Book> createBooks(List<Book>books);
 
     List<Book> getAllBooks();
